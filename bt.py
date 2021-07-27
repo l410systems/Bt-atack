@@ -3,7 +3,7 @@
 # Autor: v4char
 # Email: v4char@gmail.com
 
-import bluetooth
+#import bluetooth
 import sys
 import threading
 import random
